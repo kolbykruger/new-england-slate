@@ -110,17 +110,25 @@ $('iframe[src*="youtube"]').wrap('<div class="responsiveIframe"/>');
 	});
 
 //Slate Color Slider
-$('.slate-colors .container').slick({
+$('.slate-colors .slides').slick({
   autoplay: true,
   autoplaySpeed: 5000,
-  dots: true,
+  dots: false,
   infinite: true,
   fade: false,
   speed: 300,
-  slidesToShow: 5,
-  slidesToScroll: 5,
+  slidesToShow: 1,
   prevArrow:'<button class="prev" title="Previous Slide"><i class="fal fa-chevron-left"></i></button>',
-  nextArrow:'<button class="next" title="Next Slide"><i class="fal fa-chevron-right"></i></button>'
+  nextArrow:'<button class="next" title="Next Slide"><i class="fal fa-chevron-right"></i></button>',
+  asNavFor: '.slate-colors .slide-info',
+});
+
+$('.slate-colors .slide-info').slick({
+ slidesToShow: 1,
+ slidesToScroll: 1,
+ arrows: false,
+ fade: true,
+ asNavFor: '.slate-colors .slides'
 });
 
 //Slideshow
