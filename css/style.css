@@ -545,9 +545,9 @@ button.button, input[type="submit"].button {cursor: pointer; font-family: inheri
 .footer{width: 100%; max-width: 1200px; margin: 0 auto; overflow: hidden; text-align: center; color: rgba(0,0,0,.84);}
 .footer a{color: rgba(0,0,0,.84); text-decoration: none;}
 .footer .social{margin: 20px auto; font-size: 2rem; display: flex; justify-content: center;}
-.footer .social a{margin: 0 5px; position: relative; background: #7c2717; border-radius: 50%; display: flex; align-items: center; justify-content: center; padding: 5px; color: #fff; text-decoration: none; width: 2em;}
+.footer .social a{margin: 0 5px; position: relative; background: #575756; border-radius: 50%; display: flex; align-items: center; justify-content: center; padding: 5px; color: #fff; text-decoration: none; width: 2em;}
 .footer .social a:after {content: ""; display: block; padding-bottom: 100%;}
-.footer .social a:hover{background: rgba(0,0,0,.6);}
+.footer .social a:hover{background: #7c2717;}
 .footer .address{margin: 0 auto 5px;}
 .footer .contact{margin: 0 auto 5px;}
 .footer .copyright{margin: 0 auto 5px;}
