@@ -109,6 +109,20 @@ $('iframe[src*="youtube"]').wrap('<div class="responsiveIframe"/>');
 		$('button.navicon').attr( "aria-label", "Open Mobile Menu");
 	});
 
+//Slate Color Slider
+$('.slate-colors .container').slick({
+  autoplay: true,
+  autoplaySpeed: 5000,
+  dots: true,
+  infinite: true,
+  fade: false,
+  speed: 300,
+  slidesToShow: 5,
+  slidesToScroll: 5,
+  prevArrow:'<button class="prev" title="Previous Slide"><i class="fal fa-chevron-left"></i></button>',
+  nextArrow:'<button class="next" title="Next Slide"><i class="fal fa-chevron-right"></i></button>'
+});
+
 //Slideshow
 $('.slideshow').slick({
   autoplay: true,
